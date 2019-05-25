@@ -1,1 +1,31 @@
 first git lesson
+
+C:\Users>cd C:\Users\Owner\Desktop
+
+C:\Users\Owner\Desktop>cd C:\Users\Owner\Desktop\25.05.2019
+
+C:\Users\Owner\Desktop\25.05.2019>git init
+Initialized empty Git repository in C:/Users/Owner/Desktop/25.05.2019/.git/
+
+C:\Users\Owner\Desktop\25.05.2019>git add -A
+
+C:\Users\Owner\Desktop\25.05.2019>git commit -m *Romal*
+[master (root-commit) 45e47a8] *Romal*
+ 1 file changed, 1 insertion(+)
+ create mode 100644 First git.txt
+
+C:\Users\Owner\Desktop\25.05.2019>git remote add origin https://github.com/Gurbanzade/yeni_repo.git
+
+C:\Users\Owner\Desktop\25.05.2019>git push -u origin master
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+Username for 'https://github.com': ramalhg@code.edu.az
+Password for 'https://ramalhg@code.edu.az@github.com':
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 239 bytes | 239.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/Gurbanzade/yeni_repo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\Owner\Desktop\25.05.2019>
